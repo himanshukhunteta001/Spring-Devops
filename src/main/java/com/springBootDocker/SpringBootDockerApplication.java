@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringBootDockerApplication {
 
-	@GetMapping("/start")
+	@GetMapping("/message")
 	public String getMessage () {
 		return "Started the spring boot api application using the Docker.";
 	}
